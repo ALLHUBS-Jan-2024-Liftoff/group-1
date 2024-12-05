@@ -1,24 +1,21 @@
 import Banner from "../components/banners";
 import LandingPage from "../components/landingpage";
 import Footer from "../components/footer"
-<<<<<<< HEAD
 import LoginForm from "../components/Login/LoginForm";
-=======
-
->>>>>>> 21d0380 (Routing start completed)
+import Registration from "../components/Login/Registration";
+import IssueForm from "../components/Login/IssueForm";
 export default function Home(){
     return (
         <>
           <div>
             <Banner />
           </div>
-<<<<<<< HEAD
           <div>
-            <LoginForm />
+            <Registration />
           </div>
-=======
-         
->>>>>>> 21d0380 (Routing start completed)
+          <div>
+            <IssueForm />
+          </div>
           <div>
             <Footer />
           </div>
